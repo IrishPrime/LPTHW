@@ -3,15 +3,15 @@
 
 from sys import argv
 
-script, user_name = argv
-prompt = '> '
+script, first_name, last_name = argv
+prompt = '\u279F '
 
-print("Hi, %s, I'm the %s script." % (user_name, script))
+print("Hi, %s %s, I'm the %s script." % (first_name, last_name, script))
 print("I'd like to ask you a few questions.")
-print("Do you like me, %s?" % user_name)
+print("Do you like me, %s?" % first_name)
 likes = input(prompt)
 
-print("Where do you live, %s?" % user_name)
+print("Where do you live, %s?" % first_name)
 lives = input(prompt)
 
 print("What kind of computer do you have?")
