@@ -1,4 +1,4 @@
-#!/usr/bin/env python2
+#!/usr/bin/env python3
 """Learn Python the Hard Way - Exercise 16 (Read)"""
 
 from sys import argv

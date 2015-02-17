@@ -1,4 +1,4 @@
-#!/usr/bin/env python2
+#!/usr/bin/env python3
 """Learn Python the Hard Way - Exercise 18"""
 
 # this one is like your scripts with argv
