@@ -8,6 +8,10 @@ def cheese_and_crackers(cheese_count, boxes_of_crackers):
     print("Get a blanket.\n")
 
 
+def triple(arg):
+    print(arg * 3)
+
+
 print("We can just give the function numbers directly:")
 cheese_and_crackers(20, 30)
 
@@ -25,3 +29,19 @@ cheese_and_crackers(10 + 20, 5 + 6)
 
 print("And we can combine the two, variables and math:")
 cheese_and_crackers(amount_of_cheese + 100, amount_of_crackers + 1000)
+
+
+foo = "foo"
+formatter = "%s %s "
+formatted = formatter % ("one", "two")
+
+triple(4)
+triple(6 * 4)
+triple("String Literal")
+triple(foo)
+triple(foo + str(2))
+triple(foo * 2)
+triple(foo + "bar")
+triple(formatter % ("first", "second"))
+triple(formatted)
+triple(foo + " " + formatted)
